@@ -1,8 +1,4 @@
-import os
-import torch
-import librosa
-import numpy as np
-import matplotlib.pyplot as plt
+conda list --export > requirements_conda.txt
 
 
 def load_noisy_data(noisy_dir, n_fft=320, hop_length=160):
