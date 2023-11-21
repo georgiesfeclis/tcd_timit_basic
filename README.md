@@ -4,7 +4,7 @@ This repository contains the Python code for an audio enhancement model using de
 
 ## Description
 
-The program uses Long Short-Term Memory (LSTM) networks, including vanilla LSTM, LSTM with attention, and an enhanced LSTM model to perform audio signal enhancement. It applies noise masking techniques to process audio and utilizes features like log power spectra (LPS), Mel-frequency cepstral coefficients (MFCCs), and potentially HuBERT representations.
+The program uses Long Short-Term Memory (LSTM) networks, including vanilla LSTM or an enhanced LSTM model to perform audio signal enhancement. It applies noise masking techniques to process audio and utilizes features like log power spectra (LPS), Mel-frequency cepstral coefficients (MFCCs), and potentially HuBERT representations.
 
 ## Installation
 

@@ -252,7 +252,7 @@ if __name__ == '__main__':
 
         if i % 100 == 0:
             fname = str(args.out_file) + '/img_outputs/' + test_filenames[i] + '.png'
-            plt.figure(dpi=400)  # Set the resolution to 400 dpi
+            plt.figure(figsize=(10,25), dpi=400)  # Set the resolution to 400 dpi
 
             # First subplot: Clean Spectrogram
             # First subplot: Clean Spectrogram
